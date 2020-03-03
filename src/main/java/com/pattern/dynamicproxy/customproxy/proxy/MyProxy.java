@@ -36,6 +36,7 @@ public class MyProxy {
 
 			//2、Java文件输出磁盘
 			String filePath = MyProxy.class.getResource("").getPath();
+			//TODO 此处命名为写死，可以优化，根据传入的需要代理的类进行命名，待优化
 			File f = new File(filePath + "$Proxy0.java");
 			FileWriter fw = new FileWriter(f);
 			fw.write(src);
