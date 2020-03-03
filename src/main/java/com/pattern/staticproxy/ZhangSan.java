@@ -10,7 +10,12 @@ package com.pattern.staticproxy;
 public class ZhangSan implements IPerson {
 
 	@Override
+	public void findLove(String name,Integer age) {
+		System.out.println(name + " 找对象的要求是：肤白貌美大长腿，年龄为：" + age);
+	}
+
+	@Override
 	public void findLove() {
-		System.out.println("儿子要求：肤白貌美大长腿");
+
 	}
 }

@@ -16,6 +16,11 @@ public class ZhangSanFather implements IPerson {
 	}
 
 	@Override
+	public void findLove(String name, Integer age) {
+
+	}
+
+	@Override
 	public void findLove() {
 		before();
 		zhangSan.findLove();
@@ -29,4 +34,6 @@ public class ZhangSanFather implements IPerson {
 	private void before() {
 		System.out.println("张三的爸爸开始给张三物色相亲对象...");
 	}
+
+
 }

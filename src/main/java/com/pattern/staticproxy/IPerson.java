@@ -8,5 +8,7 @@ package com.pattern.staticproxy;
  */
 public interface IPerson {
 
+	void findLove(String name,Integer age);
+
 	void findLove();
 }
